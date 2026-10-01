@@ -13,7 +13,7 @@ from textblob import TextBlob
 # ---------------------------------------------------------------
 # Setup
 # ---------------------------------------------------------------
-load_dotenv()  # reads SPOTIPY_CLIENT_ID / SPOTIPY_CLIENT_SECRET from .env
+load_dotenv(override=True)  # .env values always win over the terminal  # reads SPOTIPY_CLIENT_ID / SPOTIPY_CLIENT_SECRET from .env
 
 logger = logging.getLogger("uvicorn.error")
 
