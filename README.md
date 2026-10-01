@@ -4,7 +4,7 @@ Type how you feel, and Moodify turns it into a Spotify playlist.
 
 The app runs sentiment analysis on your text, maps the result to a mood, and searches Spotify for tracks that match that mood. You can pick a song from the list and play it in the embedded Spotify player.
 
-![Moodify screenshot](docs/screenshot.png)
+![Moodify screenshot](docs/moodify.png)
 
 ## How it works
 
